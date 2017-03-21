@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Warikan
+
+  Created by Eiji Kushida on 2017/01/24.
+  Copyright © 2017年 Eiji Kushida. All rights reserved.
+*/
+
+
+//バリデーションチェック
+"alertTitle" = "警告";
+
+"totalAmountEmpty" = "合計金額が未入力です。";
+"totalAmountFormat" = "合計金額は数値を入力してください。";
+
+"numberOfPeopleEmpty" = "人数が未入力です。";
+"numberOfPeopleFormat" = "人数は数値を入力してください。";
+"numberOfPeopleLess2" = "人数は2名以上入力してください。";
+
+//計算結果
+"buget" = "1人辺りの支払い額は、%@円です。";

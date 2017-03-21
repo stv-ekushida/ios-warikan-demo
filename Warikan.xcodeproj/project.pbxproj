@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1700A71E38284300EFDEA1 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1700A61E38284300EFDEA1 /* AlertBuilder.swift */; };
+		BC1700AB1E382CAD00EFDEA1 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1700AA1E382CAD00EFDEA1 /* Calc.swift */; };
+		BC1700F41E3899C200EFDEA1 /* SpyWarikanDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1700F31E3899C200EFDEA1 /* SpyWarikanDelegate.swift */; };
+		BC8C48541E3ACA41005845A7 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C48531E3ACA41005845A7 /* ViewControllerTests.swift */; };
+		BCBE77EC1E80E8F9008C39AA /* MocWarikan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBE77EB1E80E8F9008C39AA /* MocWarikan.swift */; };
+		BCBE77EE1E80F0BE008C39AA /* WarikanUseaceForMocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBE77ED1E80F0BE008C39AA /* WarikanUseaceForMocTests.swift */; };
+		BCD8ACDD1E374DC90042487D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD8ACDC1E374DC90042487D /* AppDelegate.swift */; };
+		BCD8ACDF1E374DC90042487D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD8ACDE1E374DC90042487D /* ViewController.swift */; };
+		BCD8ACE21E374DC90042487D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD8ACE01E374DC90042487D /* Main.storyboard */; };
+		BCD8ACE41E374DC90042487D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD8ACE31E374DC90042487D /* Assets.xcassets */; };
+		BCD8ACE71E374DC90042487D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD8ACE51E374DC90042487D /* LaunchScreen.storyboard */; };
+		BCD8ACF21E374DC90042487D /* WarikanUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD8ACF11E374DC90042487D /* WarikanUsecaseTests.swift */; };
+		BCD8ACFD1E374DC90042487D /* WarikanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD8ACFC1E374DC90042487D /* WarikanUITests.swift */; };
+		BCD8AD0D1E374DEF0042487D /* Regexp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD8AD0A1E374DEF0042487D /* Regexp.swift */; };
+		BCD8AD0E1E374DEF0042487D /* WarikanError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD8AD0B1E374DEF0042487D /* WarikanError.swift */; };
+		BCD8AD0F1E374DEF0042487D /* WarikanUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD8AD0C1E374DEF0042487D /* WarikanUsecase.swift */; };
+		BCD8AD151E374F0A0042487D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCD8AD141E374F0A0042487D /* Localizable.strings */; };
+		BCD8AD191E375AEC0042487D /* Int+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD8AD181E375AEC0042487D /* Int+Formatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD8ACEE1E374DC90042487D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD8ACD11E374DC90042487D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD8ACD81E374DC90042487D;
+			remoteInfo = Warikan;
+		};
+		BCD8ACF91E374DC90042487D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD8ACD11E374DC90042487D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD8ACD81E374DC90042487D;
+			remoteInfo = Warikan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC1700A61E38284300EFDEA1 /* AlertBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		BC1700AA1E382CAD00EFDEA1 /* Calc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		BC1700F31E3899C200EFDEA1 /* SpyWarikanDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpyWarikanDelegate.swift; sourceTree = "<group>"; };
+		BC8C48531E3ACA41005845A7 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		BCBE77EB1E80E8F9008C39AA /* MocWarikan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MocWarikan.swift; sourceTree = "<group>"; };
+		BCBE77ED1E80F0BE008C39AA /* WarikanUseaceForMocTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarikanUseaceForMocTests.swift; sourceTree = "<group>"; };
+		BCD8ACD91E374DC90042487D /* Warikan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warikan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD8ACDC1E374DC90042487D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCD8ACDE1E374DC90042487D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCD8ACE11E374DC90042487D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD8ACE31E374DC90042487D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD8ACE61E374DC90042487D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCD8ACE81E374DC90042487D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD8ACED1E374DC90042487D /* WarikanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarikanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD8ACF11E374DC90042487D /* WarikanUsecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarikanUsecaseTests.swift; sourceTree = "<group>"; };
+		BCD8ACF31E374DC90042487D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD8ACF81E374DC90042487D /* WarikanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarikanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD8ACFC1E374DC90042487D /* WarikanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarikanUITests.swift; sourceTree = "<group>"; };
+		BCD8ACFE1E374DCA0042487D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD8AD0A1E374DEF0042487D /* Regexp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regexp.swift; sourceTree = "<group>"; };
+		BCD8AD0B1E374DEF0042487D /* WarikanError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarikanError.swift; sourceTree = "<group>"; };
+		BCD8AD0C1E374DEF0042487D /* WarikanUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarikanUsecase.swift; sourceTree = "<group>"; };
+		BCD8AD141E374F0A0042487D /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		BCD8AD181E375AEC0042487D /* Int+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Formatter.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD8ACD61E374DC90042487D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD8ACEA1E374DC90042487D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD8ACF51E374DC90042487D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8C48511E3AC9E9005845A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC8C48531E3ACA41005845A7 /* ViewControllerTests.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC8C48521E3AC9F2005845A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCBE77F01E810D34008C39AA /* Moc */,
+				BCBE77EF1E810D29008C39AA /* Spy */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCBE77EF1E810D29008C39AA /* Spy */ = {
+			isa = PBXGroup;
+			children = (
+				BC1700F31E3899C200EFDEA1 /* SpyWarikanDelegate.swift */,
+				BCD8ACF11E374DC90042487D /* WarikanUsecaseTests.swift */,
+			);
+			name = Spy;
+			path = Spy;
+			sourceTree = "<group>";
+		};
+		BCBE77F01E810D34008C39AA /* Moc */ = {
+			isa = PBXGroup;
+			children = (
+				BCBE77EB1E80E8F9008C39AA /* MocWarikan.swift */,
+				BCBE77ED1E80F0BE008C39AA /* WarikanUseaceForMocTests.swift */,
+			);
+			name = Moc;
+			path = Moc;
+			sourceTree = "<group>";
+		};
+		BCD8ACD01E374DC90042487D = {
+			isa = PBXGroup;
+			children = (
+				BCD8ACDA1E374DC90042487D /* Products */,
+				BCD8ACDB1E374DC90042487D /* Warikan */,
+				BCD8ACF01E374DC90042487D /* WarikanTests */,
+				BCD8ACFB1E374DC90042487D /* WarikanUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD8ACDA1E374DC90042487D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8ACD91E374DC90042487D /* Warikan.app */,
+				BCD8ACED1E374DC90042487D /* WarikanTests.xctest */,
+				BCD8ACF81E374DC90042487D /* WarikanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD8ACDB1E374DC90042487D /* Warikan */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8AD101E374E6B0042487D /* Controllers */,
+				BCD8AD121E374E8C0042487D /* Models */,
+				BCD8AD131E374EA30042487D /* Others */,
+				BCD8AD111E374E7A0042487D /* Utils */,
+				BCD8ACE81E374DC90042487D /* Info.plist */,
+				BCD8AD141E374F0A0042487D /* Localizable.strings */,
+			);
+			path = Warikan;
+			sourceTree = "<group>";
+		};
+		BCD8ACF01E374DC90042487D /* WarikanTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8C48511E3AC9E9005845A7 /* Controllers */,
+				BC8C48521E3AC9F2005845A7 /* Models */,
+				BCD8ACF31E374DC90042487D /* Info.plist */,
+			);
+			path = WarikanTests;
+			sourceTree = "<group>";
+		};
+		BCD8ACFB1E374DC90042487D /* WarikanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8ACFE1E374DCA0042487D /* Info.plist */,
+				BCD8ACFC1E374DC90042487D /* WarikanUITests.swift */,
+			);
+			path = WarikanUITests;
+			sourceTree = "<group>";
+		};
+		BCD8AD101E374E6B0042487D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8ACE51E374DC90042487D /* LaunchScreen.storyboard */,
+				BCD8ACE01E374DC90042487D /* Main.storyboard */,
+				BCD8ACDE1E374DC90042487D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCD8AD111E374E7A0042487D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC1700A61E38284300EFDEA1 /* AlertBuilder.swift */,
+				BC1700AA1E382CAD00EFDEA1 /* Calc.swift */,
+				BCD8AD181E375AEC0042487D /* Int+Formatter.swift */,
+				BCD8AD0A1E374DEF0042487D /* Regexp.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BCD8AD121E374E8C0042487D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8AD0B1E374DEF0042487D /* WarikanError.swift */,
+				BCD8AD0C1E374DEF0042487D /* WarikanUsecase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCD8AD131E374EA30042487D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8ACDC1E374DC90042487D /* AppDelegate.swift */,
+				BCD8ACE31E374DC90042487D /* Assets.xcassets */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD8ACD81E374DC90042487D /* Warikan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD8AD011E374DCA0042487D /* Build configuration list for PBXNativeTarget "Warikan" */;
+			buildPhases = (
+				BCD8ACD51E374DC90042487D /* Sources */,
+				BCD8ACD61E374DC90042487D /* Frameworks */,
+				BCD8ACD71E374DC90042487D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Warikan;
+			productName = Warikan;
+			productReference = BCD8ACD91E374DC90042487D /* Warikan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD8ACEC1E374DC90042487D /* WarikanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD8AD041E374DCA0042487D /* Build configuration list for PBXNativeTarget "WarikanTests" */;
+			buildPhases = (
+				BCD8ACE91E374DC90042487D /* Sources */,
+				BCD8ACEA1E374DC90042487D /* Frameworks */,
+				BCD8ACEB1E374DC90042487D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD8ACEF1E374DC90042487D /* PBXTargetDependency */,
+			);
+			name = WarikanTests;
+			productName = WarikanTests;
+			productReference = BCD8ACED1E374DC90042487D /* WarikanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD8ACF71E374DC90042487D /* WarikanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD8AD071E374DCA0042487D /* Build configuration list for PBXNativeTarget "WarikanUITests" */;
+			buildPhases = (
+				BCD8ACF41E374DC90042487D /* Sources */,
+				BCD8ACF51E374DC90042487D /* Frameworks */,
+				BCD8ACF61E374DC90042487D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD8ACFA1E374DC90042487D /* PBXTargetDependency */,
+			);
+			name = WarikanUITests;
+			productName = WarikanUITests;
+			productReference = BCD8ACF81E374DC90042487D /* WarikanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD8ACD11E374DC90042487D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eiji Kushida";
+				TargetAttributes = {
+					BCD8ACD81E374DC90042487D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PCCZJUYRT6;
+						ProvisioningStyle = Automatic;
+					};
+					BCD8ACEC1E374DC90042487D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCD8ACD81E374DC90042487D;
+					};
+					BCD8ACF71E374DC90042487D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCD8ACD81E374DC90042487D;
+					};
+				};
+			};
+			buildConfigurationList = BCD8ACD41E374DC90042487D /* Build configuration list for PBXProject "Warikan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD8ACD01E374DC90042487D;
+			productRefGroup = BCD8ACDA1E374DC90042487D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD8ACD81E374DC90042487D /* Warikan */,
+				BCD8ACEC1E374DC90042487D /* WarikanTests */,
+				BCD8ACF71E374DC90042487D /* WarikanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD8ACD71E374DC90042487D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD8ACE71E374DC90042487D /* LaunchScreen.storyboard in Resources */,
+				BCD8AD151E374F0A0042487D /* Localizable.strings in Resources */,
+				BCD8ACE41E374DC90042487D /* Assets.xcassets in Resources */,
+				BCD8ACE21E374DC90042487D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD8ACEB1E374DC90042487D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD8ACF61E374DC90042487D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD8ACD51E374DC90042487D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1700AB1E382CAD00EFDEA1 /* Calc.swift in Sources */,
+				BCD8AD0E1E374DEF0042487D /* WarikanError.swift in Sources */,
+				BCD8ACDF1E374DC90042487D /* ViewController.swift in Sources */,
+				BCD8AD0F1E374DEF0042487D /* WarikanUsecase.swift in Sources */,
+				BCD8AD191E375AEC0042487D /* Int+Formatter.swift in Sources */,
+				BC1700A71E38284300EFDEA1 /* AlertBuilder.swift in Sources */,
+				BCD8ACDD1E374DC90042487D /* AppDelegate.swift in Sources */,
+				BCD8AD0D1E374DEF0042487D /* Regexp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD8ACE91E374DC90042487D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8C48541E3ACA41005845A7 /* ViewControllerTests.swift in Sources */,
+				BCD8ACF21E374DC90042487D /* WarikanUsecaseTests.swift in Sources */,
+				BC1700F41E3899C200EFDEA1 /* SpyWarikanDelegate.swift in Sources */,
+				BCBE77EE1E80F0BE008C39AA /* WarikanUseaceForMocTests.swift in Sources */,
+				BCBE77EC1E80E8F9008C39AA /* MocWarikan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD8ACF41E374DC90042487D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD8ACFD1E374DC90042487D /* WarikanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD8ACEF1E374DC90042487D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD8ACD81E374DC90042487D /* Warikan */;
+			targetProxy = BCD8ACEE1E374DC90042487D /* PBXContainerItemProxy */;
+		};
+		BCD8ACFA1E374DC90042487D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD8ACD81E374DC90042487D /* Warikan */;
+			targetProxy = BCD8ACF91E374DC90042487D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD8ACE01E374DC90042487D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD8ACE11E374DC90042487D /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		BCD8ACE51E374DC90042487D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD8ACE61E374DC90042487D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD8ACFF1E374DCA0042487D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD8AD001E374DCA0042487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD8AD021E374DCA0042487D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = Warikan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.Warikan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCD8AD031E374DCA0042487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = Warikan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.Warikan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCD8AD051E374DCA0042487D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WarikanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.WarikanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warikan.app/Warikan";
+			};
+			name = Debug;
+		};
+		BCD8AD061E374DCA0042487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WarikanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.WarikanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warikan.app/Warikan";
+			};
+			name = Release;
+		};
+		BCD8AD081E374DCA0042487D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WarikanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.WarikanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Warikan;
+			};
+			name = Debug;
+		};
+		BCD8AD091E374DCA0042487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WarikanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.WarikanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Warikan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD8ACD41E374DC90042487D /* Build configuration list for PBXProject "Warikan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD8ACFF1E374DCA0042487D /* Debug */,
+				BCD8AD001E374DCA0042487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD8AD011E374DCA0042487D /* Build configuration list for PBXNativeTarget "Warikan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD8AD021E374DCA0042487D /* Debug */,
+				BCD8AD031E374DCA0042487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD8AD041E374DCA0042487D /* Build configuration list for PBXNativeTarget "WarikanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD8AD051E374DCA0042487D /* Debug */,
+				BCD8AD061E374DCA0042487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD8AD071E374DCA0042487D /* Build configuration list for PBXNativeTarget "WarikanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD8AD081E374DCA0042487D /* Debug */,
+				BCD8AD091E374DCA0042487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD8ACD11E374DC90042487D /* Project object */;
+}

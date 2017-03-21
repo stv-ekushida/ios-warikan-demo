@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Warikan" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPX-dZ-tdT">
+                                <rect key="frame" x="16" y="617" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TPd-uW-twN"/>
+                                </constraints>
+                                <state key="normal" title="割り勘"/>
+                                <connections>
+                                    <action selector="calcButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vna-vx-kg5"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="人数を入力してください。" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Hlk-Nc-hpo">
+                                <rect key="frame" x="16" y="160" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="nQ0-v3-w1H"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="合計金額を入力してください。" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jz6-iW-pDN">
+                                <rect key="frame" x="16" y="86" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWZ-ml-0rq">
+                                <rect key="frame" x="16" y="294" width="343" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="gJ9-vq-b8O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="iWZ-ml-0rq" secondAttribute="trailing" constant="16" id="62O-qA-VRR"/>
+                            <constraint firstItem="jz6-iW-pDN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="EqC-RT-wVF"/>
+                            <constraint firstAttribute="trailing" secondItem="jz6-iW-pDN" secondAttribute="trailing" constant="16" id="Mmt-Uq-US9"/>
+                            <constraint firstItem="uPX-dZ-tdT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="NBX-Pg-IpK"/>
+                            <constraint firstItem="iWZ-ml-0rq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oaq-CB-Pww"/>
+                            <constraint firstItem="Hlk-Nc-hpo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="ZXN-Ug-1iI"/>
+                            <constraint firstItem="jz6-iW-pDN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="66" id="d7E-Ye-oqy"/>
+                            <constraint firstItem="Hlk-Nc-hpo" firstAttribute="top" secondItem="jz6-iW-pDN" secondAttribute="bottom" constant="44" id="feM-rn-Kpp"/>
+                            <constraint firstAttribute="trailing" secondItem="Hlk-Nc-hpo" secondAttribute="trailing" constant="16" id="iO9-xC-bgC"/>
+                            <constraint firstItem="iWZ-ml-0rq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="j9S-FN-6p2"/>
+                            <constraint firstAttribute="trailing" secondItem="uPX-dZ-tdT" secondAttribute="trailing" constant="16" id="lcU-dF-PIA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uPX-dZ-tdT" secondAttribute="bottom" constant="20" id="t7y-Yl-ycI"/>
+                            <constraint firstItem="iWZ-ml-0rq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="uVA-Tx-zKW"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="U4u-QC-uW2" appends="YES" id="Nf7-89-tDe"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="budgetResultLabel" destination="iWZ-ml-0rq" id="DrR-N7-VDL"/>
+                        <outlet property="numberOfPeopleTextField" destination="Hlk-Nc-hpo" id="vuR-Ge-K04"/>
+                        <outlet property="totalAmountTextField" destination="jz6-iW-pDN" id="nRI-HP-a3v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="U4u-QC-uW2">
+                    <connections>
+                        <action selector="backgroundViewDidTap:" destination="BYZ-38-t0r" id="fQ2-JL-HhV"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
