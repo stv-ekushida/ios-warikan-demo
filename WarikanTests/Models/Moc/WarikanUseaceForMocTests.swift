@@ -146,7 +146,7 @@ final class WarikanUseaceForMocTests: XCTestCase {
     }
 }
 
-// MARK:- MocWarikanDelegate
+// MARK :- MocWarikanDelegate
 extension WarikanUseaceForMocTests: MocWarikanDelegate {
     
     func complated(result: Bool, expectInternalOutput: String) {

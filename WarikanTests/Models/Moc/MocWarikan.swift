@@ -6,10 +6,10 @@
 //  Copyright © 2017年 Eiji Kushida. All rights reserved.
 //
 
-import XCTest
 @testable import Warikan
+import XCTest
 
-protocol MocWarikanDelegate {
+protocol MocWarikanDelegate: class {
     func complated(result: Bool, expectInternalOutput: String)
 }
 
@@ -20,11 +20,11 @@ final class MocWarikan: XCTestCase {
     
     /// 実際の間接出力
     var actualInternalOutput = "" {
-        didSet{
+        didSet {
             verify()
         }
     }
-    var delegate: MocWarikanDelegate?
+    weak var delegate: MocWarikanDelegate?
     
     /// 検証する
     func verify() {
@@ -34,4 +34,3 @@ final class MocWarikan: XCTestCase {
         )
     }
 }
-

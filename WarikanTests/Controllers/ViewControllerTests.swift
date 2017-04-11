@@ -6,12 +6,12 @@
 //  Copyright © 2017年 Eiji Kushida. All rights reserved.
 //
 
-import XCTest
 @testable import Warikan
+import XCTest
 
 class ViewControllerTests: XCTestCase {
     
-    var vc: ViewController!
+    var viewController: ViewController?
     
     override func setUp() {
         super.setUp()
@@ -19,37 +19,39 @@ class ViewControllerTests: XCTestCase {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(
             withIdentifier: "ViewController")
-        vc = viewController as! ViewController
+        self.viewController = viewController as? ViewController
         
-        _ = vc.view
+        _ = viewController.view
     }
-    
+
     override func tearDown() {
         super.tearDown()
     }
     
     func testTotalAmountTextFieldAfterDidLoadIsNotNil() {
-        XCTAssertNotNil(vc.totalAmountTextField)
+        XCTAssertNotNil(viewController?.totalAmountTextField)
     }
     
     func testNumberOfPeopleTextFieldAfterDidLoadIsNotNil() {
-        XCTAssertNotNil(vc.numberOfPeopleTextField)
+        XCTAssertNotNil(viewController?.numberOfPeopleTextField)
     }
     
     func testBudgetResultLabelAfterDidLoadIsNotNil() {
 
-        XCTAssertNotNil(vc.budgetResultLabel)
+        XCTAssertNotNil(viewController?.budgetResultLabel)
     }
 
     func testTotalAmountTextFieldAfterDidLoadPlaceHolder() {
-        XCTAssertEqual(vc.totalAmountTextField.placeholder, "合計金額を入力してください。")
+        XCTAssertEqual(viewController?.totalAmountTextField.placeholder,
+                       "合計金額を入力してください。")
     }
     
     func testNumberOfPeopleTextFieldAfterDidLoadPlaceHolder() {
-        XCTAssertEqual(vc.numberOfPeopleTextField.placeholder, "人数を入力してください。")
+        XCTAssertEqual(viewController?.numberOfPeopleTextField.placeholder,
+                       "人数を入力してください。")
     }
     
     func testBudgetResultLabelAfterDidLoadPlaceHolder() {
-        XCTAssertEqual(vc.budgetResultLabel.text, "")
+        XCTAssertEqual(viewController?.budgetResultLabel.text, "")
     }
 }

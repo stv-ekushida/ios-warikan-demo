@@ -119,7 +119,6 @@
 				BC1700F31E3899C200EFDEA1 /* SpyWarikanDelegate.swift */,
 				BCD8ACF11E374DC90042487D /* WarikanUsecaseTests.swift */,
 			);
-			name = Spy;
 			path = Spy;
 			sourceTree = "<group>";
 		};
@@ -129,7 +128,6 @@
 				BCBE77EB1E80E8F9008C39AA /* MocWarikan.swift */,
 				BCBE77ED1E80F0BE008C39AA /* WarikanUseaceForMocTests.swift */,
 			);
-			name = Moc;
 			path = Moc;
 			sourceTree = "<group>";
 		};
@@ -234,6 +232,7 @@
 				BCD8ACD51E374DC90042487D /* Sources */,
 				BCD8ACD61E374DC90042487D /* Frameworks */,
 				BCD8ACD71E374DC90042487D /* Resources */,
+				BCE764A21E9B796200F262D8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -354,6 +353,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCE764A21E9B796200F262D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCD8ACD51E374DC90042487D /* Sources */ = {

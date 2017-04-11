@@ -9,7 +9,7 @@
 import Foundation
 
 final class Calc {
-    
+
     // 割り算する（余りは、既定値で切り上げる）
     static func div(totalAmount: Int, numberOfPeople: Int, ceilingBase: Int) -> Int {
         
