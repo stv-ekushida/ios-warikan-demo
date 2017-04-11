@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Eiji Kushida. All rights reserved.
 //
 
-import XCTest
 @testable import Warikan
+import XCTest
 
 final class WarikanUseaceForMocTests: XCTestCase {
     
